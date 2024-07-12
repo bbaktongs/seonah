@@ -8,6 +8,7 @@ ld cx(Line l1,Line l2) {
     return (ld)(1.0) * (ld)(l2.c-l1.c)/(l1.m-l2.m);
 }
 
-vector<Line>li;
+deque<Line>li;
 
-// https://www.acmicpc.net/source/75555998
+// https://www.acmicpc.net/source/75555998 - N log N
+// https://www.acmicpc.net/source/75560147 - N
